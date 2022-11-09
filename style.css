@@ -1,0 +1,309 @@
+body,
+h3,
+p {
+  margin: 0;
+}
+
+body {
+  padding: 0;
+}
+
+#masthead {
+  background: rgb(172, 192, 191);
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  max-width: 1024px;
+  height: auto;
+  margin: 0 auto;
+}
+.item {
+  display: flex;
+}
+
+#sect-head{
+  position:fixed;
+  left:0;
+  right:0;
+  z-index: 2;
+  background: rgb(172, 192, 191);
+}
+
+.header {
+  justify-content: space-between;
+  display: flex;
+  padding: 8px;
+}
+.header h1 {
+  text-transform: uppercase;
+  align-items: center;
+}
+
+.header ul {
+  display: flex;
+  align-items: center;
+}
+
+.header li {
+  list-style: none;
+  margin: 0 12px;
+  text-transform: uppercase;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+}
+
+.putih {
+  background: white;
+}
+.oren {
+  background: orange;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.hero .tulisan .action {
+  margin: 16px 0 60px 0;
+}
+
+.header li button,
+.hero button {
+  background: black;
+  color: white;
+  padding: 12px;
+  border-radius: 6px;
+  text-transform: uppercase;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.shadow-l {
+  filter: drop-shadow(-8px -2px 0 white) drop-shadow(-8px -2px 0 GRAY);
+}
+.shadow-r {
+  filter: drop-shadow(8px -2px 0 white) drop-shadow(8px -2px 0 cyan);
+}
+
+.w40 {
+  width: 40%;
+}
+.w45 {
+  width: 45%;
+}
+.w50 {
+  width: 50%;
+}
+.w60 {
+  width: 60%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.hero .tulisan p {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.hero .wadah-kapal{
+  margin-top: 80px;
+}
+
+.kapal{
+  width: 100%;
+}
+
+.text-60 {
+  font-size: 60px;
+  text-transform: uppercase;
+  margin: 0 0 10px 0;
+}
+
+.height-100{
+  height:100%;
+}
+
+#sect-3 {
+  padding: 60px 0;
+}
+
+#sect-5 {
+  padding: 80px 0;
+}
+
+#sect-5 .box{
+  padding:12px;
+}
+
+#sect-5 .box img{
+  width:100%;
+}
+
+#sect-6 {
+  padding: 40px 0;
+}
+
+#sect-6 .item{
+  display:flex;
+  justify-content: space-between;
+  padding:40px 0;
+  overflow: hidden;
+}
+
+#sect-6 .wadah-kapal{
+  width:calc(50% - 20px);
+  margin:10px;
+}
+
+#sect-6 .flex{
+  display:flex;
+  justify-content: space-between;
+}
+
+#sect-6 .kapal{
+  width:100%;
+  background: lightgrey;
+}
+
+.kedua h1 {
+  margin: 20px 10px;
+}
+#sect-7{
+  margin-bottom:40px;
+}
+
+#sect-7 h1{
+  margin:10px 0;
+}
+
+#sect-7 p{
+  margin:0;
+}
+
+#sect-7 img{
+  justify-self: end;
+}
+
+#sect-8 {
+  padding:80px 0;
+  background: orangered;
+  color:white;
+}
+
+#sect-8 .itemnya{
+  max-width:400px;
+  margin:0 auto;
+  text-align: center;
+}
+
+#sect-8 p{
+  margin:16px 0;
+}
+
+#sect-8 .card{
+  margin:6px auto;
+  padding: 6px;
+  max-width: 240px;
+  background-color: white;
+  border-radius: 6px;
+}
+
+#sect-8 .inputan{
+  text-align: left;
+  max-width: 210px;
+  height: 28px;
+  border:0;
+}
+#sect-8 button{
+  background: black;
+  color: white;
+  height: 30px;
+  border-radius: 6px;
+}
+
+#footer{
+  background-color: black;
+  color: white;
+  padding: 80px 0;
+}
+
+#footer .wadah, #footer .action{
+  display: flex;
+  justify-content: space-between;
+}
+#footer .action{
+  padding:20px 20px 20px 0;
+}
+#footer .item{
+  width: 25%;
+  flex-direction: column;
+}
+
+#footer .box{
+  background-color: orangered;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+/* ------------------ */
+.panah{
+  width:25px;
+}
+
+.flex {
+  display: flex;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.box {
+  background: gray;
+}
+
+.col-2 {
+  width: calc((100% * 2 / 12) - 20px);
+  margin: 10px;
+}
+.col-4 {
+  width: calc((100% / 3) - 20px);
+  margin: 10px;
+}
+.col-8 {
+  width: calc((100% * 2 / 3) - 20px);
+  margin: 10px;
+}
+.col-10 {
+  width: calc((100% * 10 / 12) - 20px);
+  margin: 10px;
+}
+
+.val-tengah {
+  display: flex;
+  align-items: center;
+}
+.val-bawah {
+  display: flex;
+  align-items:flex-end;
+}
+
+/* --------------------- */
+.test{
+  background-color: green;
+}

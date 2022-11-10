@@ -257,6 +257,10 @@ body {
   border-radius: 5px;
 }
 
+#footer .fab{
+  font-size: 15px;
+}
+
 /* ------------------ */
 .panah{
   width:25px;
